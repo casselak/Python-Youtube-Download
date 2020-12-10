@@ -1,14 +1,13 @@
-import pytube
+
+from pytube import YouTube
 
 #ask for the link from user
 #https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
-
 link = input("Enter the link of YouTube video you want to download:  ")
 try:
     # object creation using YouTube
-    # which was imported in the beginning
-    yt = pytube.YouTube(link)
+    yt = YouTube(link)
 except:
     print("Connection Error")
 
