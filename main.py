@@ -1,4 +1,3 @@
-
 from pytube import YouTube
 
 #ask for the link from user
@@ -25,4 +24,4 @@ try:
     stream.download()
 except:
     print("Some Error!")
-print('Task Completed!')
+print('Task Completed!') # this will download in your current working Dir
